@@ -13,6 +13,16 @@
 		E41A22461C6D377200A43B3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41A22441C6D377200A43B3B /* Main.storyboard */; };
 		E41A22481C6D377200A43B3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41A22471C6D377200A43B3B /* Assets.xcassets */; };
 		E41A224B1C6D377200A43B3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41A22491C6D377200A43B3B /* LaunchScreen.storyboard */; };
+		E41A22541C6D3A8C00A43B3B /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A22531C6D3A8C00A43B3B /* ToDoItem.m */; };
+		E41A22571C6D415900A43B3B /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A22561C6D415900A43B3B /* TableViewCell.m */; };
+		E41A22591C6D434500A43B3B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41A22581C6D434500A43B3B /* QuartzCore.framework */; };
+		E4553B2B1C6E145E00EC54D2 /* StrikethroughLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E4553B2A1C6E145E00EC54D2 /* StrikethroughLabel.m */; };
+		E4553B2E1C6E2E4400EC54D2 /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4553B2D1C6E2E4400EC54D2 /* TableView.m */; };
+		E4553B311C6E6F1900EC54D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4553B301C6E6F1900EC54D2 /* UIKit.framework */; };
+		E4553B331C6E6F1F00EC54D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4553B321C6E6F1F00EC54D2 /* Foundation.framework */; };
+		E4553B351C6E6F2500EC54D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4553B341C6E6F2500EC54D2 /* CoreGraphics.framework */; };
+		E4FF4C981C7253B80053FC2C /* TableViewDragAddNew.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FF4C971C7253B80053FC2C /* TableViewDragAddNew.m */; };
+		E4FF4C9B1C727B610053FC2C /* TableViewPinchToAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FF4C9A1C727B610053FC2C /* TableViewPinchToAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,24 @@
 		E41A22471C6D377200A43B3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E41A224A1C6D377200A43B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E41A224C1C6D377200A43B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E41A22521C6D3A8C00A43B3B /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		E41A22531C6D3A8C00A43B3B /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
+		E41A22551C6D415900A43B3B /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		E41A22561C6D415900A43B3B /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		E41A22581C6D434500A43B3B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E41A225A1C6D4C8300A43B3B /* TableViewCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCellDelegate.h; sourceTree = "<group>"; };
+		E4553B291C6E145E00EC54D2 /* StrikethroughLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrikethroughLabel.h; sourceTree = "<group>"; };
+		E4553B2A1C6E145E00EC54D2 /* StrikethroughLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrikethroughLabel.m; sourceTree = "<group>"; };
+		E4553B2C1C6E2E4400EC54D2 /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableView.h; sourceTree = "<group>"; };
+		E4553B2D1C6E2E4400EC54D2 /* TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableView.m; sourceTree = "<group>"; };
+		E4553B2F1C6E2F9600EC54D2 /* TableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewDataSource.h; sourceTree = "<group>"; };
+		E4553B301C6E6F1900EC54D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E4553B321C6E6F1F00EC54D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4553B341C6E6F2500EC54D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4FF4C961C7253B80053FC2C /* TableViewDragAddNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDragAddNew.h; sourceTree = "<group>"; };
+		E4FF4C971C7253B80053FC2C /* TableViewDragAddNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDragAddNew.m; sourceTree = "<group>"; };
+		E4FF4C991C727B610053FC2C /* TableViewPinchToAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewPinchToAdd.h; sourceTree = "<group>"; };
+		E4FF4C9A1C727B610053FC2C /* TableViewPinchToAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewPinchToAdd.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +61,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4553B351C6E6F2500EC54D2 /* CoreGraphics.framework in Frameworks */,
+				E4553B331C6E6F1F00EC54D2 /* Foundation.framework in Frameworks */,
+				E4553B311C6E6F1900EC54D2 /* UIKit.framework in Frameworks */,
+				E41A22591C6D434500A43B3B /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +74,10 @@
 		E41A222F1C6D377100A43B3B = {
 			isa = PBXGroup;
 			children = (
+				E4553B341C6E6F2500EC54D2 /* CoreGraphics.framework */,
+				E4553B321C6E6F1F00EC54D2 /* Foundation.framework */,
+				E4553B301C6E6F1900EC54D2 /* UIKit.framework */,
+				E41A22581C6D434500A43B3B /* QuartzCore.framework */,
 				E41A223A1C6D377200A43B3B /* ClearStyle */,
 				E41A22391C6D377200A43B3B /* Products */,
 			);
@@ -62,6 +98,20 @@
 				E41A223F1C6D377200A43B3B /* AppDelegate.m */,
 				E41A22411C6D377200A43B3B /* ViewController.h */,
 				E41A22421C6D377200A43B3B /* ViewController.m */,
+				E41A22521C6D3A8C00A43B3B /* ToDoItem.h */,
+				E41A22531C6D3A8C00A43B3B /* ToDoItem.m */,
+				E41A22551C6D415900A43B3B /* TableViewCell.h */,
+				E41A22561C6D415900A43B3B /* TableViewCell.m */,
+				E41A225A1C6D4C8300A43B3B /* TableViewCellDelegate.h */,
+				E4553B291C6E145E00EC54D2 /* StrikethroughLabel.h */,
+				E4553B2A1C6E145E00EC54D2 /* StrikethroughLabel.m */,
+				E4553B2C1C6E2E4400EC54D2 /* TableView.h */,
+				E4553B2D1C6E2E4400EC54D2 /* TableView.m */,
+				E4553B2F1C6E2F9600EC54D2 /* TableViewDataSource.h */,
+				E4FF4C961C7253B80053FC2C /* TableViewDragAddNew.h */,
+				E4FF4C971C7253B80053FC2C /* TableViewDragAddNew.m */,
+				E4FF4C991C727B610053FC2C /* TableViewPinchToAdd.h */,
+				E4FF4C9A1C727B610053FC2C /* TableViewPinchToAdd.m */,
 				E41A22441C6D377200A43B3B /* Main.storyboard */,
 				E41A22471C6D377200A43B3B /* Assets.xcassets */,
 				E41A22491C6D377200A43B3B /* LaunchScreen.storyboard */,
@@ -151,6 +201,12 @@
 			files = (
 				E41A22431C6D377200A43B3B /* ViewController.m in Sources */,
 				E41A22401C6D377200A43B3B /* AppDelegate.m in Sources */,
+				E41A22541C6D3A8C00A43B3B /* ToDoItem.m in Sources */,
+				E4553B2E1C6E2E4400EC54D2 /* TableView.m in Sources */,
+				E4FF4C981C7253B80053FC2C /* TableViewDragAddNew.m in Sources */,
+				E4FF4C9B1C727B610053FC2C /* TableViewPinchToAdd.m in Sources */,
+				E41A22571C6D415900A43B3B /* TableViewCell.m in Sources */,
+				E4553B2B1C6E145E00EC54D2 /* StrikethroughLabel.m in Sources */,
 				E41A223D1C6D377200A43B3B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +354,7 @@
 				E41A22511C6D377200A43B3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

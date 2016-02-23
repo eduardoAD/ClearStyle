@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TableViewCellDelegate.h"
+#import "TableView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <TableViewCellDelegate, TableViewDataSource>
 
+@property (strong, nonatomic) IBOutlet TableView *tableView;
 
 @end
 
